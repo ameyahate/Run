@@ -69,7 +69,8 @@ map<string, int> setup(char* paramfile, char* edgefile, char* nodefile, double n
 	Network graph;
 	int u, v, w, x, y;
 	double lp1, lp2, lq1, lq2;
-	double high, low;
+	double high = 0.0;
+	double low = 0.0;
 	double LB, UB, sigma, val, pval, weight;
 	double r;
 	
